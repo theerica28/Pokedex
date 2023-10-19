@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+   
+header{
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
+    
+
+}
+
+.content{
+    padding: 1 rem;
+
+}
+
+.content h1{
+    margin: 0;
+}
+
+ol.pokemons{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+ol.pokemons li{
+    margin: 0.5rem;
+    padding: 2rem 1rem;
+    background-color: #14a06f;
+    border-radius: 1rem;
+    color: #fff;
+   
+    
+}
+
+ol.pokemons li img{
+    max-width: 100%;
+    height: 150px;
+}
